@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juice Scroll Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Fresh juice Centre Co.</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Juice Centre</h1>
+        <p>Pure, Fresh, and Delicious. Experience the freshness in every drop!</p>
+      </div>
+      <div class="hero-image" data-scroll>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKoZ1cOP3Z10Edei8Ge1SpkMVCjaPiaoEAew&s" alt="Juice Bottle">
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about" data-scroll>
+      <div class="about-content">
+        <h2>Who We Are</h2>
+        <p>
+          At Fresh Juice Co., we believe in delivering nature's goodness. Our juices are made from
+          fresh fruits sourced from organic farms to ensure the best taste and quality.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkXH-wy2pZvoPjroyGp9ZfIXgc7e6SR7OTnw&s" alt="Fresh Fruits">
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section products">
+      <h2>Our Products</h2>
+      <div class="product-list">
+        <div class="product-item" data-scroll>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiPN1PidvIVMoAK9Mh7dJjkvT25WQX-qaJ3g&s" alt="Orange Juice">
+          <h3>Orange Juice</h3>
+          <p>Freshly squeezed oranges, bottled to perfection.</p>
+        </div>
+        <div class="product-item" data-scroll>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHP8tW1nuRk_b9wZ_RVQXfshLJ9NG6pxkqgQ&s" alt="Mango Juice">
+          <h3>Mango Juice</h3>
+          <p>Rich, tropical mangoes for a burst of flavor.</p>
+        </div>
+        <div class="product-item" data-scroll>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_vD2VcPmSRqhm_zsvtocV5BwZ4AN2HW6oQ&s" alt="Mixed Berry Juice">
+          <h3>Mixed Berry Juice</h3>
+          <p>A delightful mix of strawberries, blueberries, and raspberries.</p>
+        </div>
+        <div class="product-item" data-scroll>
+          <img src="https://img.freepik.com/free-photo/front-view-fresh-apple-juice-with-fresh-apples-dark-color-drink-photo-cocktail-fruit_140725-92836.jpg?semt=ais_hybrid" alt="Apple Juice">
+          <h3>Apple Juice</h3>
+          <p>Fresh Apple Juice With Extraordinary taste.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact" data-scroll>
+      <h2>Get in Touch</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Juice Centre Co. | All rights reserved.</p>
+    <p>Official Owner - Sandesh Heda</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
